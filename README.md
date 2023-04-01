@@ -47,6 +47,8 @@ apk is the final name of the final output
 Before launching attack, we need to check the status of the apache server. Type command:
 #service apache2 status
  
+![image](https://user-images.githubusercontent.com/81562207/229279152-6b342062-523d-465a-830b-a9df37590b99.png)
+
 
 All seems set, now type msfconsole. Use multi/handler exploit, set payload the same as generated prevoisly, set LHOST and LPORT values same as used in payload and finally type exploit to launch an attack.
  
