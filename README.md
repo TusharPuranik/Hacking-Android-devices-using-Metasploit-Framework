@@ -71,4 +71,12 @@ You can interact with any session by typing sessions -i [session ID]. After ente
 
 ![image](https://user-images.githubusercontent.com/81562207/229279569-43fff339-2ee2-4fd5-85dd-f54731ad92d6.png)
 
+![image](https://user-images.githubusercontent.com/81562207/229279600-a1140b0c-3768-4558-83cd-5ab04dac5b73.png)
 
+
+
+4.	Extracting Contacts from an Android Device
+Now let extract some contacts from the target device by typing “dump” and double tab.
+ 
+ 
+It will extract all the contacts from the Android device and will save it in our local directory. To see this file type “ls” and “cat [file_name]”.
