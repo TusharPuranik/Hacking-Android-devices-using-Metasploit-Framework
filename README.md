@@ -84,3 +84,6 @@ It will extract all the contacts from the Android device and will save it in our
 
 ![image](https://user-images.githubusercontent.com/81562207/229279728-aa4eb4fb-3a0a-409e-a945-c862d4cf5a44.png)
 
+## Conclusion
+
+In conclusion, securing Android devices is crucial to prevent unauthorized access and exploitation. Hackers can potentially take advantage of vulnerabilities and create backdoors in these devices, which can compromise user data and privacy. By implementing proper security measures, such as updating the device software, using strong passwords, and limiting app permissions, users can significantly reduce the risk of being targeted by malicious actors. It is important to prioritize device security and stay informed about potential threats to keep personal and sensitive information safe.
