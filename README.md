@@ -42,7 +42,6 @@ R> /var/www/html would give the output directly on apache server
 apk is the final name of the final output
 
 
-
 2.	Launching an Attack
 Before launching attack, we need to check the status of the apache server. Type command:
 #service apache2 status
@@ -51,6 +50,8 @@ Before launching attack, we need to check the status of the apache server. Type 
 
 
 All seems set, now type msfconsole. Use multi/handler exploit, set payload the same as generated prevoisly, set LHOST and LPORT values same as used in payload and finally type exploit to launch an attack.
+
+![image](https://user-images.githubusercontent.com/81562207/229279200-5c74b081-2753-429c-9b2a-33892ecd2960.png)
  
 In real life scenarios, some social engineering techniques can be used to let the target download the malicious apk file. For demonstration we are just accessing the attacker machine to download the file in the Android device. After downloading it successfully, select the app to install.
  
