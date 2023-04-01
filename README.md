@@ -64,9 +64,8 @@ Once the user installs the application and runs it, the meterepreter session wou
 
 3.	Post Exploitation
 Type “background” and then “sessions” to list down all the sessions from where you can see all the IPs connected to the machine. 
+
+![image](https://user-images.githubusercontent.com/81562207/229279529-ca376327-0434-43b2-b1a4-19c526f87584.png)
  
 You can interact with any session by typing sessions -i [session ID]. After entering the session, type “help” to list down all the commands we can put forward in this session. You can see some file system commands that are helpful when you’re trying to go after some sensitive information or data. By using these, you can easily download or upload any file or information.
 
-   
-
- 
