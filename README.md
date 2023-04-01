@@ -59,6 +59,14 @@ In real life scenarios, some social engineering techniques can be used to let th
 
 Once the user installs the application and runs it, the meterepreter session would be opened immediatly at the attacking side.
 
+![image](https://user-images.githubusercontent.com/81562207/229279465-8336c901-4c06-47ff-a8a7-7105a96e3a52.png)
+
+
+3.	Post Exploitation
+Type “background” and then “sessions” to list down all the sessions from where you can see all the IPs connected to the machine. 
  
+You can interact with any session by typing sessions -i [session ID]. After entering the session, type “help” to list down all the commands we can put forward in this session. You can see some file system commands that are helpful when you’re trying to go after some sensitive information or data. By using these, you can easily download or upload any file or information.
 
+   
 
+ 
