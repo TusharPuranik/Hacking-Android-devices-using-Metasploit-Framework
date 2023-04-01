@@ -69,3 +69,6 @@ Type “background” and then “sessions” to list down all the sessions from
  
 You can interact with any session by typing sessions -i [session ID]. After entering the session, type “help” to list down all the commands we can put forward in this session. You can see some file system commands that are helpful when you’re trying to go after some sensitive information or data. By using these, you can easily download or upload any file or information.
 
+![image](https://user-images.githubusercontent.com/81562207/229279569-43fff339-2ee2-4fd5-85dd-f54731ad92d6.png)
+
+
